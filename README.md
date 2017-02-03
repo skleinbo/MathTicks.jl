@@ -10,10 +10,11 @@
 * Wrap tick labels in LaTeX math mode to use the math font.
 
 ## Installation
-`Pkg.clone("https://github.com/skleinbo/MathTicks.jl.git")`
-
-## Usage
+```julia
+Pkg.clone("https://github.com/skleinbo/MathTicks.jl.git")
 ```
+## Usage
+```julia
 using Plots
 pyplot()
 
